@@ -1,0 +1,126 @@
+body{
+    background-color: #F1F5F8;
+    font-family: sans-serif;
+    
+} 
+.contain{
+   place-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+h2{
+    color: #696F6F;
+    position: absolute;
+    top: 100px;
+    left:740px ;
+}
+
+form{
+    position: absolute;
+    left: 600px;
+    top: 190px;
+    box-sizing: border-box;
+   
+} 
+
+#Email,#inEmail,#password,#inPass{
+    display: block;
+    margin-left: 1%;
+    
+}
+#inEmail{
+    margin-bottom: 20px;
+}
+#Email, #password{
+    color: #8996A6;
+    font-family: Futura Hv BT;
+    font-weight: bold;
+}
+
+input,#forgot{
+    display: inline-block;
+    margin: 5px;
+}
+
+#inEmail,#inPass{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #CACFD5;
+}
+
+#forgot{
+    background-color: #F1F5F8;
+    border: none;
+    margin-left: 288px;
+    color: #2393DF;
+    font: 1em sans-serif;
+    font-size: normal;
+    text-decoration: none;
+    
+}
+#or{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    color: #CED2D5;
+    font-size: large;
+    font-weight: bold;
+
+}
+#signIn{
+    background-color: #2393DF;
+    border: none;
+    width: 400px;
+    height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: Arial bold;
+    font-size: large;
+    display: block;
+    margin-top: 15px;  
+}
+#signIn:hover{
+    background-color: #8DC4EB;
+}
+#create{
+    color: grey;
+    margin-left: 70px;
+}
+#cLink{
+    margin-left: 5px;
+    color: #2393DF;
+    text-decoration: none;
+}
+#cBtn{
+    background-color: #F1F5F8;
+    border: none;
+    color: #2393DF;
+    font-size: medium;
+}
+#google,#apple,#facebook{
+    width: 115px;
+    height: 45px;
+    margin-left: 2%;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    border: none;
+}
+#google{
+    background-color: #DC4437;
+}
+#apple{
+    background-color: #000;
+}
+#facebook{
+    background-color: #4565AE;
+}
+hr{
+    color:#CED2D5;  
+}
+span, #l1,#l2{
+    margin-top: 60px;
+}
