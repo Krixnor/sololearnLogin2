@@ -1,20 +1,26 @@
 body{
     background-color: #F1F5F8;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
     
 } 
 .contain{
-   place-items: center;
+ 
    display: flex;
    flex-direction: column;
    justify-content: center;
+   font-family:Fira Sans,sans-serif ;
+   
 }
 
 h2{
-    color: #696F6F;
-    position: absolute;
-    top: 100px;
-    left:740px ;
+    font-size: 26px;
+    font-weight: 600;
+    color: #666;
+    text-align: center;
+    margin-top: 100px;
 }
 
 form{
@@ -34,9 +40,11 @@ form{
     margin-bottom: 20px;
 }
 #Email, #password{
-    color: #8996A6;
+    color: #6b7f99;
     font-family: Futura Hv BT;
-    font-weight: bold;
+    font-weight: 600px;
+    margin-bottom: 8px;
+    font-size: 20px;
 }
 
 input,#forgot{
@@ -48,7 +56,7 @@ input,#forgot{
     width: 400px;
     height: 40px;
     border-radius: 5px;
-    border: 1px solid #CACFD5;
+    border: 1px solid #2393DF;
 }
 
 #forgot{
@@ -59,8 +67,10 @@ input,#forgot{
     font: 1em sans-serif;
     font-size: normal;
     text-decoration: none;
+    cursor: pointer;
     
 }
+
 #or{
     margin-top: 50px;
     margin-bottom: 40px;
@@ -93,7 +103,9 @@ input,#forgot{
     margin-left: 5px;
     color: #2393DF;
     text-decoration: none;
+    cursor: pointer;
 }
+
 #cBtn{
     background-color: #F1F5F8;
     border: none;
